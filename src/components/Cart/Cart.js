@@ -23,6 +23,7 @@ function Cart() {
             <div className="row gy-5 gx-3">
             {products.map((a)=><div className="col-sm-12 col-md-6 col-lg-6 mb-2"><ProductCard a={a}/></div>)}
             </div>
+            <div></div>
 
             </div>
             <div>
